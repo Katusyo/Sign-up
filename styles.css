@@ -36,16 +36,23 @@ h1 {
     color: white;
 }
 
+.trans-back {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 356.79px;
+    height: 100px;
+    top: 245px;
+}
+
 .right {
     display: flex;
     position: relative;
     flex-direction: space-between;
     padding-left: 10px;
-    padding-bottom: 100px;
-    padding-right: 100px;
     background-color: white;
-    margin-top: 145px;
-    margin-bottom: 145px;
+    height: 100vh;
+    width: 1000px;
+    margin-right: 0px;
 }
 
 .image {
