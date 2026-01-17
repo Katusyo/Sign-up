@@ -118,6 +118,24 @@ h6 {
   margin-bottom: 10px;
 }
 
+.form-row input:valid[type='password'] {
+  border-color: green;
+}
+
+.form-row input:focus:valid[type='password'] {
+  outline: none;
+  box-shadow: 0 0 5px green;
+}
+
+.form-row input:invalid[type='password'] {
+  border-color: red;
+}
+
+.form-row input:focus:invalid[type='password'] {
+  outline: none;
+  box-shadow: 0 0 5px red;
+}
+
 .form-footer {
     display: flex;
     flex-direction: column;
