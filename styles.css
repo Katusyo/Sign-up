@@ -7,10 +7,13 @@
   font-style: normal;
 }
 
+div.header {
+    width: auto;
+}
+
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
-    min-height: 100vh;
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -44,18 +47,13 @@ h1 {
     top: 245px;
 }
 
-.right-back {
-    display: flex;
-    background-color: rgba(179, 179, 179, 0.1);
-    position: absolute;
-    width: 800px;
-    height: 110px;
-    left: 0px;
+div.image {
+    padding: 0
 }
 
 .image {
     width: 300px;
-    height: 535px;
+    height: 890px;
     display: flex;
     padding-top: 145px;
     padding-right: 0px;
@@ -76,6 +74,10 @@ h6 {
     padding: 0 0 0 15px;
 }
 
+div.right {
+    padding: 0;
+}
+
 .right {
     display: flex;
     position: relative;
@@ -83,6 +85,15 @@ h6 {
     padding: 100px 0 0 10px;
     background-color: white;
     margin-right: 0px;
+}
+
+.right-back {
+    display: flex;
+    background-color: rgba(179, 179, 179, 0.1);
+    position: absolute;
+    width: 800px;
+    height: 110px;
+    left: 0px;
 }
 
 .form-container {
@@ -112,9 +123,9 @@ h6 {
   background-color: #FFFFFF;
   border: 1px solid #E5E7EB;
   border-radius: 3px;
-  width: 40%;
+  width: 50%;
   padding: 7px;
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 10px;
 }
 
