@@ -68,6 +68,14 @@ h6 {
     padding: 0 130px 0 15px;
 }
 
+.copyright {
+    position: absolute;
+    font-size: 5px;
+    color: white;
+    display: flex;
+    padding: 0 0 0 15px;
+}
+
 .right {
     display: flex;
     position: relative;
@@ -81,7 +89,7 @@ h6 {
     display: flex;
     flex-direction: column;
     padding: 0 130px 0 15px;
-    border: #D6D9DC 1px solid;
+    border: #E5E7EB 1px solid;
 }
 
 .form-row {
@@ -102,7 +110,7 @@ h6 {
 .form-row input[type='tel'],
 .form-row input[type='password'] {
   background-color: #FFFFFF;
-  border: 1px solid #D6D9DC;
+  border: 1px solid #E5E7EB;
   border-radius: 3px;
   width: 40%;
   padding: 7px;
@@ -120,7 +128,7 @@ h6 {
 }
 
 button {
-    background-color: #18b45e;
+    background-color: #596D48;
     color: white;
     border: none;
     border-radius: 10px;
